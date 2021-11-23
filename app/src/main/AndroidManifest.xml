@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.APPprueba">
         <activity
-            android:name=".Login"
+            android:name=".Registro"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
             android:exported="false" />
         <activity
             android:name=".InicioAplicacion"
